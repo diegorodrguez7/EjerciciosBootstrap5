@@ -1,0 +1,100 @@
+body {
+    background: #ffefba; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ffffff, #ffefba); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ffffff, #ffefba); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    font-size: 16px;
+}
+
+.caja1{
+    height: 405px;
+    background-color: rgb(252, 167, 71);
+    color: white;
+}
+.caja2{
+    height: 200px;
+}
+.caja3{
+    height: 400px;
+    background-color: rgb(201, 163, 163);
+}
+.caja4{
+    height: 400px;
+    background-color: rgb(201, 163, 163);
+}
+.caja5{
+    height: 100px;
+}
+.caja6{
+    height: 100px;
+}
+
+/* Dispositivos muy pequeños menores de 576px */
+@media (max-width: 575.98px) { 
+    .caja1{
+        background-color: rgb(255, 129, 91);
+    }
+    .caja2{
+        height: 230px;
+    }
+    .caja3{
+        background-color: rgb(0, 195, 255);
+        height: 230px;
+    }
+    .caja4{
+        height: 230px;
+    }
+}
+
+/* Dispositivos pequeños de 576px para arriba */
+@media (min-width: 576px) and (max-width: 767.98px){
+    .caja4{
+        background-color: rgb(54, 93, 12);
+        height: 200px;
+    }
+    .caja1{
+        background-color: rgb(32, 209, 241);
+    }
+
+}
+
+/* Dispositivos medianos de 768px para arriba */
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+}
+
+/*  Dispositivos grandes de 992px para arriba */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    
+}
+
+/*  Dispositivos XL de 1200px para arriba */
+@media (min-width: 1200px) and (max-width: 1399.98px){
+    
+}
+
+/*  Dispositivos XXL de 1400px para arriba */
+@media (min-width: 1400px) {
+    
+}
+
+.cajaFlex{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.carousel-inner img {
+    margin-top: 1%;
+    width: 100%;
+    max-height: 1000px;
+}
+
+.carousel-inner{
+ height: 400px;
+}
+
+#carouselExampleIndicators{
+    margin-top: 2px;
+    height: 400px;
+}
+

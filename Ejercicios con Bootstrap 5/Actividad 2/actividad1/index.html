@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- css import -->
+    <link rel="stylesheet" href="estilos.css">
+    <title>Actividades bootstrap 2</title>
+</head>
+
+<body>
+    <h1 class="text-center mt-2 mb-5">Ejercicio 1 - Offset y ordenación - Diego Rguez</h1>
+    <h3 class="text-center text-danger d-block d-sm-none">Tamaño XS (menos de 576px)</h3>
+    <h3 class="text-center text-info d-none d-sm-block d-md-none">Tamaño SM (desde 767px a 576px)</h3>
+    <h3 class="text-center text-success d-none d-lg-block d-md-block">Tamaño LG, MD (desde 1200px a 768px)</h3>
+    <div class="container mt-4 text-center">
+        <div class="row bg-success caja5"></div>
+        <div class="row">
+            <div class="col-md-3 col-sm-3 col-6 offset-md-3 caja1 cajaFlex">1</div>
+            <div class="col-md-3 col-sm-3 col-6 caja1 cajaFlex">2</div>
+                <div class="col-md-3 d-none d-lg-block d-md-block w-100"></div>
+            <div class="col-md-3 col-sm-3 col-6 caja1 cajaFlex">3</div>
+            <div class="col-md-3 col-sm-3 col-6 offset-md-6 caja1 cajaFlex">4</div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 d-none d-sm-block d-md-none caja3 p-3">Tablet</div>
+        </div>
+        <div class="row">
+            <div class="col-md-3 col-sm-3 col-6 caja2 order-md-last cajaFlex">A</div>
+            <div class="col-md-3 col-sm-3 col-6 caja2 order-md-3 cajaFlex">B</div>
+            <div class="col-md-3 col-sm-3 col-6 caja2 order-md-2 cajaFlex">C</div>
+            <div class="col-md-3 col-sm-3 col-6 caja2 order-md-first cajaFlex">D</div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 d-block d-sm-none caja3 p-4">Mobile</div>
+            <div class="col-md-12 d-none d-lg-block d-md-block caja3 p-3">Desktop</div>
+        </div>
+        <div class="row">
+            <div class="col-md-3 col-sm-6 caja4 cajaFlex">:D</div>
+            <div class="col-md-3 col-sm-6 offset-md-3 caja4 p-5 order-md-first d-none d-sm-block">:(</div>
+        </div>
+        <div class="row bg-success caja5 d-none d-sm-block"></div>
+    </div>
+</body>
+
+</html>

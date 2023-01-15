@@ -1,0 +1,17 @@
+.caja1{
+    height: 90px;
+    /* Color indigo de bootstrap 5 */
+    background-color: #6610f2;
+}
+
+.caja2{
+    height: 300px;
+}
+
+.caja3{
+    height: 100px;
+}
+
+[class^='col']{
+    border: 3px solid white;
+  }
